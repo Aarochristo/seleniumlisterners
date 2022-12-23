@@ -21,7 +21,7 @@ public class TestoneTest {
 	
 	
   @Test(successPercentage = 90)
-  public void f() {
+  public void openUrl() {
 	  
 	  
 
@@ -42,7 +42,7 @@ public class TestoneTest {
   
   
   @BeforeSuite
-  void beforee()
+  void beforeeRun()
   {
 	  
 	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\aaron\\chromedriver.exe");
